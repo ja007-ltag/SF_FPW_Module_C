@@ -13,9 +13,14 @@ def plus(a, b):
     return a + b
 
 
+def minus(a, b):
+    return a - b
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     print(plus(2, 3))
+    print(minus(2, 3))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
