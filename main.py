@@ -21,13 +21,18 @@ def multy(a, b):
     return a * b
 
 
+def division(a, b):
+    return a // b if b != 0 else "ERROR"
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    print(plus(2, 3))
-    print(minus(2, 3))
-    print(multy(2, 3))
-    
-    print_hi('Vasiya')
+    print(plus(23, 3))
+    print(minus(23, 3))
+    print(multy(23, 3))
+    print(division(23, 3))
+
+    print_hi('Petya')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
