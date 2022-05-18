@@ -27,5 +27,7 @@ if __name__ == '__main__':
     print(plus(2, 3))
     print(minus(2, 3))
     print(multy(2, 3))
+    
+    print_hi('Vasiya')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
