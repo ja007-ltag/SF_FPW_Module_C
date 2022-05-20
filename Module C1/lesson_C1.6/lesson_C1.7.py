@@ -25,4 +25,3 @@ eggs = Food(name="eggs", category="food", quantity_in_stock=5)
 print(eggs.max_quantity)
 print(eggs.is_available())
 print(eggs.refresh_frequency)
-
