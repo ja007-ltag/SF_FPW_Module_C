@@ -42,6 +42,4 @@ class Human:
 
 h = Human()
 h.set_age(30)
-h.age = "asdgasdf"
 print(h.get_age())
-print(h.age)
